@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: first-cloud-provider  # 配置应用名为first-cloud-provider
+
+eureka:
+  instance:
+    hostname: localhost #配置该服务实例的主机名称 
+  client:
+    service-url:
+      defalutZone: http://localhost:8761/eureka/,http://localhost:8762/eureka/ #该服务将会注册到8761,8762的Eureka服务器

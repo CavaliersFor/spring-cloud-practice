@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: first-service-provider  # 配置应用名为first-service-provider
+
+eureka:
+  instance:
+    hostname: localhost #配置该服务实例的主机名称 
+  client:
+    service-url:
+      defalutZone: http://localhost:8761/eureka/ #该服务将会注册到8761的Eureka服务器
