@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: spring-feign-provider # 注册到eureka的服务名
+eureka:
+  instance:
+    hostname: localhost #配置该服务实例的主机名称 
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/ #配置eureka服务器地址
