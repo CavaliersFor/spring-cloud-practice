@@ -207,4 +207,5 @@ RestTemplate本是spring-web项目中的一个REST客户端，本身并不具备
 
 ### 使用Hystrix
 - Hystrix的运作流程图
+<br/>
 ![Hystrix的运作流程图](https://github.com/CavaliersFor/spring-cloud-practice/blob/master/image/sixth-chapter/Hystrix%E7%9A%84%E8%BF%90%E4%BD%9C%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
