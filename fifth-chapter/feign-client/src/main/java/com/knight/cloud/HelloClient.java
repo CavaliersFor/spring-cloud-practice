@@ -9,7 +9,8 @@ import feign.RequestLine;
  */
 public interface HelloClient {
 
-	// @RequestLine接口表示使用GET方法向 /hello发送请求
-	@RequestLine("GET /hello")
-	String sayHello();
+    // @RequestLine接口表示使用GET方法向 /hello发送请求
+    @RequestLine("GET /hello")
+    String sayHello();
+
 }

@@ -58,3 +58,6 @@
   默认情况下，不会记录接口的日志
 
 ### 在Spring Cloud中使用Feign
+
+- Spring Cloud整合Feign
+- Feign负载均衡
