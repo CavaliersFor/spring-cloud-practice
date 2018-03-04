@@ -206,10 +206,8 @@ RestTemplate本是spring-web项目中的一个REST客户端，本身并不具备
 # 第六章Spring Cloud的保护机制
 
 ### 使用Hystrix
-Hystrix的运作流程图
 
-![Hystrix的运作流程图]((https://github.com/CavaliersFor/spring-cloud-practice/blob/master/image/sixth-chapter/Hystrix%E7%9A%84%E8%BF%90%E4%BD%9C%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
+Hystrix的运作流程图:
 
-If you want to embed images, this is how you do it:
+![Hystrix的运作流程图](https://github.com/CavaliersFor/spring-cloud-practice/blob/master/image/sixth-chapter/Hystrix%E7%9A%84%E8%BF%90%E4%BD%9C%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
