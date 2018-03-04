@@ -1,0 +1,21 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: cloud-invoker
+  cloud:
+    loadbalancer:
+      retry:
+        enabled: false
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defalutZone: http://localhost:8761/eureka/
+# 使用配置文件配置Ribbon
+cloud-provider:
+  ribbon:
+    NFLoadBalancerRuleClassname: com.knight.cloud.MyRule
+    NFLoadBalancerPingClassname: com.knight.cloud.MyPing
+    listOfServers: http://localhost:8080/,http://localhost:8081

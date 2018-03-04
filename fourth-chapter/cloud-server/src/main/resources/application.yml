@@ -1,0 +1,9 @@
+server:
+  port: 8761
+eureka:
+  client:
+    register-with-eureka: false # 是否将自身的信息注册到Eureka服务器
+    fetch-registry: false   # 是否到Eureka服务器抓取注册信息
+logging:
+  level:
+    com.netflix: info
