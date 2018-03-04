@@ -198,3 +198,10 @@ RestTemplate本是spring-web项目中的一个REST客户端，本身并不具备
   默认情况下，不会记录接口的日志
 
 ### 在Spring Cloud中使用Feign
+
+
+
+
+
+# 第六章Spring Cloud的保护机制
+
